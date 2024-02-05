@@ -7,9 +7,9 @@
 <div class="h-screen flex items-center justify-center">
   <Flame color="#dddddd" size={50} />
   <Image
-    src="/favicon.png"
-    width={200}
-    height={200}
+    src="/favicon.ico"
+    width={150}
+    height={150}
     alt="The Svelte logo"
     layout="fixed"
     priority={true}
