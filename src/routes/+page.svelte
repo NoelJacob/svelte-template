@@ -5,7 +5,7 @@
 </script>
 
 <div class="h-screen flex items-center justify-center">
-  <Flame color="#dddddd" size={50} />
+  <Flame size={50} />
   <Image
     src="/favicon.ico"
     width={150}
@@ -14,13 +14,18 @@
     layout="fixed"
     priority={true}
   />
-  <Globe color="#dddddd" size={50} />
+  <Globe size={50} />
 </div>
 
 <style lang="postcss">
   div > :global(*) {
     margin: 0;
     padding: 0;
-    @apply animate-pulse hover:scale-105 transition-transform;
+    @apply hover:scale-105 transition-transform;
+
+    &:not(Image) {
+      color: #dddddd;
+      margin: 0 0.5rem;
+    }
   }
 </style>
