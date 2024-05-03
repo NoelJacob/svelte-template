@@ -1,6 +1,6 @@
 {
   "files.associations": {
-    "*.css": "postcss"
+    "*.css": "tailwindcss"
   },
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode"
